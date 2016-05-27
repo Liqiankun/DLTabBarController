@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AAB468A41CF83B0500B828ED"
+               BlueprintIdentifier = "AAB468F31CF83DE400B828ED"
                BuildableName = "DLTabBarControllerDemo.app"
                BlueprintName = "DLTabBarControllerDemo"
                ReferencedContainer = "container:DLTabBarControllerDemo.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AAB468BD1CF83B0500B828ED"
+               BlueprintIdentifier = "AAB4690C1CF83DE400B828ED"
                BuildableName = "DLTabBarControllerDemoTests.xctest"
                BlueprintName = "DLTabBarControllerDemoTests"
                ReferencedContainer = "container:DLTabBarControllerDemo.xcodeproj">
@@ -42,7 +42,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AAB468C81CF83B0500B828ED"
+               BlueprintIdentifier = "AAB469171CF83DE400B828ED"
                BuildableName = "DLTabBarControllerDemoUITests.xctest"
                BlueprintName = "DLTabBarControllerDemoUITests"
                ReferencedContainer = "container:DLTabBarControllerDemo.xcodeproj">
@@ -52,7 +52,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AAB468A41CF83B0500B828ED"
+            BlueprintIdentifier = "AAB468F31CF83DE400B828ED"
             BuildableName = "DLTabBarControllerDemo.app"
             BlueprintName = "DLTabBarControllerDemo"
             ReferencedContainer = "container:DLTabBarControllerDemo.xcodeproj">
@@ -75,7 +75,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AAB468A41CF83B0500B828ED"
+            BlueprintIdentifier = "AAB468F31CF83DE400B828ED"
             BuildableName = "DLTabBarControllerDemo.app"
             BlueprintName = "DLTabBarControllerDemo"
             ReferencedContainer = "container:DLTabBarControllerDemo.xcodeproj">
@@ -94,7 +94,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AAB468A41CF83B0500B828ED"
+            BlueprintIdentifier = "AAB468F31CF83DE400B828ED"
             BuildableName = "DLTabBarControllerDemo.app"
             BlueprintName = "DLTabBarControllerDemo"
             ReferencedContainer = "container:DLTabBarControllerDemo.xcodeproj">
