@@ -15,6 +15,22 @@
 		AAB469071CF83DE400B828ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB469051CF83DE400B828ED /* LaunchScreen.storyboard */; };
 		AAB469121CF83DE400B828ED /* DLTabBarControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469111CF83DE400B828ED /* DLTabBarControllerDemoTests.m */; };
 		AAB4691D1CF83DE400B828ED /* DLTabBarControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4691C1CF83DE400B828ED /* DLTabBarControllerDemoUITests.m */; };
+		AAB4692E1CF8411B00B828ED /* DLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4692D1CF8411B00B828ED /* DLTabBar.m */; };
+		AAB469311CF8413900B828ED /* DLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469301CF8413900B828ED /* DLTabBarController.m */; };
+		AAB469341CF8438E00B828ED /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469331CF8438E00B828ED /* UIView+Extension.m */; };
+		AAB469501CF8456E00B828ED /* BHBBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469371CF8456E00B828ED /* BHBBottomBar.m */; };
+		AAB469511CF8456E00B828ED /* BHBCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469391CF8456E00B828ED /* BHBCenterView.m */; };
+		AAB469521CF8456E00B828ED /* BHBCustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4693B1CF8456E00B828ED /* BHBCustomBtn.m */; };
+		AAB469531CF8456E00B828ED /* BHBGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4693D1CF8456E00B828ED /* BHBGroup.m */; };
+		AAB469541CF8456E00B828ED /* BHBItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4693F1CF8456E00B828ED /* BHBItem.m */; };
+		AAB469551CF8456E00B828ED /* BHBPlaySoundTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469411CF8456E00B828ED /* BHBPlaySoundTool.m */; };
+		AAB469561CF8456E00B828ED /* BHBPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469431CF8456E00B828ED /* BHBPopView.m */; };
+		AAB469571CF8456E00B828ED /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAB469461CF8456E00B828ED /* images.bundle */; };
+		AAB469581CF8456E00B828ED /* music.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AAB469471CF8456E00B828ED /* music.bundle */; };
+		AAB469591CF8456E00B828ED /* UIButton+BHBSetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469491CF8456E00B828ED /* UIButton+BHBSetImage.m */; };
+		AAB4695A1CF8456E00B828ED /* UIImage+BHBEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4694B1CF8456E00B828ED /* UIImage+BHBEffects.m */; };
+		AAB4695B1CF8456E00B828ED /* UIImageView+BHBSetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4694D1CF8456E00B828ED /* UIImageView+BHBSetImage.m */; };
+		AAB4695C1CF8456E00B828ED /* UIView+BHBAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4694F1CF8456E00B828ED /* UIView+BHBAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,37 @@
 		AAB469181CF83DE400B828ED /* DLTabBarControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLTabBarControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB4691C1CF83DE400B828ED /* DLTabBarControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLTabBarControllerDemoUITests.m; sourceTree = "<group>"; };
 		AAB4691E1CF83DE400B828ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB4692C1CF8411B00B828ED /* DLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLTabBar.h; path = ../DLTabBar.h; sourceTree = "<group>"; };
+		AAB4692D1CF8411B00B828ED /* DLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLTabBar.m; path = ../DLTabBar.m; sourceTree = "<group>"; };
+		AAB4692F1CF8413900B828ED /* DLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLTabBarController.h; path = DLTabBarControllerDemo/DLTabBarController.h; sourceTree = SOURCE_ROOT; };
+		AAB469301CF8413900B828ED /* DLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLTabBarController.m; path = DLTabBarControllerDemo/DLTabBarController.m; sourceTree = SOURCE_ROOT; };
+		AAB469321CF8438E00B828ED /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		AAB469331CF8438E00B828ED /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		AAB469361CF8456E00B828ED /* BHBBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBBottomBar.h; sourceTree = "<group>"; };
+		AAB469371CF8456E00B828ED /* BHBBottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBBottomBar.m; sourceTree = "<group>"; };
+		AAB469381CF8456E00B828ED /* BHBCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBCenterView.h; sourceTree = "<group>"; };
+		AAB469391CF8456E00B828ED /* BHBCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBCenterView.m; sourceTree = "<group>"; };
+		AAB4693A1CF8456E00B828ED /* BHBCustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBCustomBtn.h; sourceTree = "<group>"; };
+		AAB4693B1CF8456E00B828ED /* BHBCustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBCustomBtn.m; sourceTree = "<group>"; };
+		AAB4693C1CF8456E00B828ED /* BHBGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBGroup.h; sourceTree = "<group>"; };
+		AAB4693D1CF8456E00B828ED /* BHBGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBGroup.m; sourceTree = "<group>"; };
+		AAB4693E1CF8456E00B828ED /* BHBItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBItem.h; sourceTree = "<group>"; };
+		AAB4693F1CF8456E00B828ED /* BHBItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBItem.m; sourceTree = "<group>"; };
+		AAB469401CF8456E00B828ED /* BHBPlaySoundTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBPlaySoundTool.h; sourceTree = "<group>"; };
+		AAB469411CF8456E00B828ED /* BHBPlaySoundTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBPlaySoundTool.m; sourceTree = "<group>"; };
+		AAB469421CF8456E00B828ED /* BHBPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBPopView.h; sourceTree = "<group>"; };
+		AAB469431CF8456E00B828ED /* BHBPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHBPopView.m; sourceTree = "<group>"; };
+		AAB469441CF8456E00B828ED /* BHBSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBSingleton.h; sourceTree = "<group>"; };
+		AAB469461CF8456E00B828ED /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		AAB469471CF8456E00B828ED /* music.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = music.bundle; sourceTree = "<group>"; };
+		AAB469481CF8456E00B828ED /* UIButton+BHBSetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+BHBSetImage.h"; sourceTree = "<group>"; };
+		AAB469491CF8456E00B828ED /* UIButton+BHBSetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+BHBSetImage.m"; sourceTree = "<group>"; };
+		AAB4694A1CF8456E00B828ED /* UIImage+BHBEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BHBEffects.h"; sourceTree = "<group>"; };
+		AAB4694B1CF8456E00B828ED /* UIImage+BHBEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BHBEffects.m"; sourceTree = "<group>"; };
+		AAB4694C1CF8456E00B828ED /* UIImageView+BHBSetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+BHBSetImage.h"; sourceTree = "<group>"; };
+		AAB4694D1CF8456E00B828ED /* UIImageView+BHBSetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+BHBSetImage.m"; sourceTree = "<group>"; };
+		AAB4694E1CF8456E00B828ED /* UIView+BHBAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BHBAnimation.h"; sourceTree = "<group>"; };
+		AAB4694F1CF8456E00B828ED /* UIView+BHBAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BHBAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +148,7 @@
 		AAB468F61CF83DE400B828ED /* DLTabBarControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				AAB4692B1CF83E8800B828ED /* Lib */,
 				AAB4692A1CF83E1900B828ED /* DLTabBarController */,
 				AAB468FA1CF83DE400B828ED /* AppDelegate.h */,
 				AAB468FB1CF83DE400B828ED /* AppDelegate.m */,
@@ -144,8 +192,62 @@
 		AAB4692A1CF83E1900B828ED /* DLTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				AAB4692C1CF8411B00B828ED /* DLTabBar.h */,
+				AAB4692D1CF8411B00B828ED /* DLTabBar.m */,
+				AAB4692F1CF8413900B828ED /* DLTabBarController.h */,
+				AAB469301CF8413900B828ED /* DLTabBarController.m */,
 			);
 			path = DLTabBarController;
+			sourceTree = "<group>";
+		};
+		AAB4692B1CF83E8800B828ED /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				AAB469351CF8456E00B828ED /* BHBPopView */,
+				AAB469321CF8438E00B828ED /* UIView+Extension.h */,
+				AAB469331CF8438E00B828ED /* UIView+Extension.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		AAB469351CF8456E00B828ED /* BHBPopView */ = {
+			isa = PBXGroup;
+			children = (
+				AAB469361CF8456E00B828ED /* BHBBottomBar.h */,
+				AAB469371CF8456E00B828ED /* BHBBottomBar.m */,
+				AAB469381CF8456E00B828ED /* BHBCenterView.h */,
+				AAB469391CF8456E00B828ED /* BHBCenterView.m */,
+				AAB4693A1CF8456E00B828ED /* BHBCustomBtn.h */,
+				AAB4693B1CF8456E00B828ED /* BHBCustomBtn.m */,
+				AAB4693C1CF8456E00B828ED /* BHBGroup.h */,
+				AAB4693D1CF8456E00B828ED /* BHBGroup.m */,
+				AAB4693E1CF8456E00B828ED /* BHBItem.h */,
+				AAB4693F1CF8456E00B828ED /* BHBItem.m */,
+				AAB469401CF8456E00B828ED /* BHBPlaySoundTool.h */,
+				AAB469411CF8456E00B828ED /* BHBPlaySoundTool.m */,
+				AAB469421CF8456E00B828ED /* BHBPopView.h */,
+				AAB469431CF8456E00B828ED /* BHBPopView.m */,
+				AAB469441CF8456E00B828ED /* BHBSingleton.h */,
+				AAB469451CF8456E00B828ED /* Resource */,
+				AAB469481CF8456E00B828ED /* UIButton+BHBSetImage.h */,
+				AAB469491CF8456E00B828ED /* UIButton+BHBSetImage.m */,
+				AAB4694A1CF8456E00B828ED /* UIImage+BHBEffects.h */,
+				AAB4694B1CF8456E00B828ED /* UIImage+BHBEffects.m */,
+				AAB4694C1CF8456E00B828ED /* UIImageView+BHBSetImage.h */,
+				AAB4694D1CF8456E00B828ED /* UIImageView+BHBSetImage.m */,
+				AAB4694E1CF8456E00B828ED /* UIView+BHBAnimation.h */,
+				AAB4694F1CF8456E00B828ED /* UIView+BHBAnimation.m */,
+			);
+			path = BHBPopView;
+			sourceTree = "<group>";
+		};
+		AAB469451CF8456E00B828ED /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AAB469461CF8456E00B828ED /* images.bundle */,
+				AAB469471CF8456E00B828ED /* music.bundle */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,9 +353,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB469581CF8456E00B828ED /* music.bundle in Resources */,
 				AAB469071CF83DE400B828ED /* LaunchScreen.storyboard in Resources */,
 				AAB469041CF83DE400B828ED /* Assets.xcassets in Resources */,
 				AAB469021CF83DE400B828ED /* Main.storyboard in Resources */,
+				AAB469571CF8456E00B828ED /* images.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,9 +382,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB469341CF8438E00B828ED /* UIView+Extension.m in Sources */,
 				AAB468FF1CF83DE400B828ED /* ViewController.m in Sources */,
+				AAB4695A1CF8456E00B828ED /* UIImage+BHBEffects.m in Sources */,
+				AAB469511CF8456E00B828ED /* BHBCenterView.m in Sources */,
+				AAB469561CF8456E00B828ED /* BHBPopView.m in Sources */,
+				AAB4692E1CF8411B00B828ED /* DLTabBar.m in Sources */,
+				AAB4695B1CF8456E00B828ED /* UIImageView+BHBSetImage.m in Sources */,
+				AAB469541CF8456E00B828ED /* BHBItem.m in Sources */,
+				AAB469531CF8456E00B828ED /* BHBGroup.m in Sources */,
+				AAB4695C1CF8456E00B828ED /* UIView+BHBAnimation.m in Sources */,
+				AAB469591CF8456E00B828ED /* UIButton+BHBSetImage.m in Sources */,
 				AAB468FC1CF83DE400B828ED /* AppDelegate.m in Sources */,
+				AAB469521CF8456E00B828ED /* BHBCustomBtn.m in Sources */,
 				AAB468F91CF83DE400B828ED /* main.m in Sources */,
+				AAB469501CF8456E00B828ED /* BHBBottomBar.m in Sources */,
+				AAB469551CF8456E00B828ED /* BHBPlaySoundTool.m in Sources */,
+				AAB469311CF8413900B828ED /* DLTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DLTabBarControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLTabBarControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,6 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DLTabBarControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dl.demo.DLTabBarControllerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
