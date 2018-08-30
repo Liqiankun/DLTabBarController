@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63972A1F2137AD2400C3F16B /* DLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63972A1C2137AD2400C3F16B /* DLTabBarController.m */; };
+		63972A202137AD2400C3F16B /* DLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 63972A1D2137AD2400C3F16B /* DLTabBar.m */; };
 		AAB468F91CF83DE400B828ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB468F81CF83DE400B828ED /* main.m */; };
 		AAB468FC1CF83DE400B828ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB468FB1CF83DE400B828ED /* AppDelegate.m */; };
 		AAB468FF1CF83DE400B828ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB468FE1CF83DE400B828ED /* ViewController.m */; };
 		AAB469021CF83DE400B828ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB469001CF83DE400B828ED /* Main.storyboard */; };
 		AAB469041CF83DE400B828ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAB469031CF83DE400B828ED /* Assets.xcassets */; };
 		AAB469071CF83DE400B828ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB469051CF83DE400B828ED /* LaunchScreen.storyboard */; };
-		AAB469121CF83DE400B828ED /* DLTabBarControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469111CF83DE400B828ED /* DLTabBarControllerDemoTests.m */; };
-		AAB4691D1CF83DE400B828ED /* DLTabBarControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4691C1CF83DE400B828ED /* DLTabBarControllerDemoUITests.m */; };
-		AAB4692E1CF8411B00B828ED /* DLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB4692D1CF8411B00B828ED /* DLTabBar.m */; };
-		AAB469311CF8413900B828ED /* DLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469301CF8413900B828ED /* DLTabBarController.m */; };
 		AAB469341CF8438E00B828ED /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469331CF8438E00B828ED /* UIView+Extension.m */; };
 		AAB469501CF8456E00B828ED /* BHBBottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469371CF8456E00B828ED /* BHBBottomBar.m */; };
 		AAB469511CF8456E00B828ED /* BHBCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB469391CF8456E00B828ED /* BHBCenterView.m */; };
@@ -51,6 +49,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63972A1C2137AD2400C3F16B /* DLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLTabBarController.m; path = DLTabBarControllerDemo/DLTabBarController.m; sourceTree = SOURCE_ROOT; };
+		63972A1D2137AD2400C3F16B /* DLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLTabBar.m; path = DLTabBarControllerDemo/DLTabBar.m; sourceTree = SOURCE_ROOT; };
+		63972A1E2137AD2400C3F16B /* DLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLTabBarController.h; path = DLTabBarControllerDemo/DLTabBarController.h; sourceTree = SOURCE_ROOT; };
+		63972A212137AD2B00C3F16B /* DLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLTabBar.h; path = DLTabBarControllerDemo/DLTabBar.h; sourceTree = SOURCE_ROOT; };
 		AAB468F41CF83DE400B828ED /* DLTabBarControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DLTabBarControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB468F81CF83DE400B828ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AAB468FA1CF83DE400B828ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,15 +64,7 @@
 		AAB469061CF83DE400B828ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAB469081CF83DE400B828ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB4690D1CF83DE400B828ED /* DLTabBarControllerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLTabBarControllerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAB469111CF83DE400B828ED /* DLTabBarControllerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLTabBarControllerDemoTests.m; sourceTree = "<group>"; };
-		AAB469131CF83DE400B828ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAB469181CF83DE400B828ED /* DLTabBarControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DLTabBarControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AAB4691C1CF83DE400B828ED /* DLTabBarControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLTabBarControllerDemoUITests.m; sourceTree = "<group>"; };
-		AAB4691E1CF83DE400B828ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AAB4692C1CF8411B00B828ED /* DLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLTabBar.h; path = ../DLTabBar.h; sourceTree = "<group>"; };
-		AAB4692D1CF8411B00B828ED /* DLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLTabBar.m; path = ../DLTabBar.m; sourceTree = "<group>"; };
-		AAB4692F1CF8413900B828ED /* DLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLTabBarController.h; path = DLTabBarControllerDemo/DLTabBarController.h; sourceTree = SOURCE_ROOT; };
-		AAB469301CF8413900B828ED /* DLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLTabBarController.m; path = DLTabBarControllerDemo/DLTabBarController.m; sourceTree = SOURCE_ROOT; };
 		AAB469321CF8438E00B828ED /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		AAB469331CF8438E00B828ED /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		AAB469361CF8456E00B828ED /* BHBBottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHBBottomBar.h; sourceTree = "<group>"; };
@@ -125,12 +119,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63972A1B2137AD0700C3F16B /* DLTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				63972A212137AD2B00C3F16B /* DLTabBar.h */,
+				63972A1D2137AD2400C3F16B /* DLTabBar.m */,
+				63972A1E2137AD2400C3F16B /* DLTabBarController.h */,
+				63972A1C2137AD2400C3F16B /* DLTabBarController.m */,
+			);
+			path = DLTabBarController;
+			sourceTree = "<group>";
+		};
 		AAB468EB1CF83DE400B828ED = {
 			isa = PBXGroup;
 			children = (
 				AAB468F61CF83DE400B828ED /* DLTabBarControllerDemo */,
-				AAB469101CF83DE400B828ED /* DLTabBarControllerDemoTests */,
-				AAB4691B1CF83DE400B828ED /* DLTabBarControllerDemoUITests */,
 				AAB468F51CF83DE400B828ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -148,8 +151,8 @@
 		AAB468F61CF83DE400B828ED /* DLTabBarControllerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				63972A1B2137AD0700C3F16B /* DLTabBarController */,
 				AAB4692B1CF83E8800B828ED /* Lib */,
-				AAB4692A1CF83E1900B828ED /* DLTabBarController */,
 				AAB468FA1CF83DE400B828ED /* AppDelegate.h */,
 				AAB468FB1CF83DE400B828ED /* AppDelegate.m */,
 				AAB468FD1CF83DE400B828ED /* ViewController.h */,
@@ -169,35 +172,6 @@
 				AAB468F81CF83DE400B828ED /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AAB469101CF83DE400B828ED /* DLTabBarControllerDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				AAB469111CF83DE400B828ED /* DLTabBarControllerDemoTests.m */,
-				AAB469131CF83DE400B828ED /* Info.plist */,
-			);
-			path = DLTabBarControllerDemoTests;
-			sourceTree = "<group>";
-		};
-		AAB4691B1CF83DE400B828ED /* DLTabBarControllerDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				AAB4691C1CF83DE400B828ED /* DLTabBarControllerDemoUITests.m */,
-				AAB4691E1CF83DE400B828ED /* Info.plist */,
-			);
-			path = DLTabBarControllerDemoUITests;
-			sourceTree = "<group>";
-		};
-		AAB4692A1CF83E1900B828ED /* DLTabBarController */ = {
-			isa = PBXGroup;
-			children = (
-				AAB4692C1CF8411B00B828ED /* DLTabBar.h */,
-				AAB4692D1CF8411B00B828ED /* DLTabBar.m */,
-				AAB4692F1CF8413900B828ED /* DLTabBarController.h */,
-				AAB469301CF8413900B828ED /* DLTabBarController.m */,
-			);
-			path = DLTabBarController;
 			sourceTree = "<group>";
 		};
 		AAB4692B1CF83E8800B828ED /* Lib */ = {
@@ -382,12 +356,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63972A202137AD2400C3F16B /* DLTabBar.m in Sources */,
 				AAB469341CF8438E00B828ED /* UIView+Extension.m in Sources */,
 				AAB468FF1CF83DE400B828ED /* ViewController.m in Sources */,
 				AAB4695A1CF8456E00B828ED /* UIImage+BHBEffects.m in Sources */,
 				AAB469511CF8456E00B828ED /* BHBCenterView.m in Sources */,
 				AAB469561CF8456E00B828ED /* BHBPopView.m in Sources */,
-				AAB4692E1CF8411B00B828ED /* DLTabBar.m in Sources */,
 				AAB4695B1CF8456E00B828ED /* UIImageView+BHBSetImage.m in Sources */,
 				AAB469541CF8456E00B828ED /* BHBItem.m in Sources */,
 				AAB469531CF8456E00B828ED /* BHBGroup.m in Sources */,
@@ -398,7 +372,7 @@
 				AAB468F91CF83DE400B828ED /* main.m in Sources */,
 				AAB469501CF8456E00B828ED /* BHBBottomBar.m in Sources */,
 				AAB469551CF8456E00B828ED /* BHBPlaySoundTool.m in Sources */,
-				AAB469311CF8413900B828ED /* DLTabBarController.m in Sources */,
+				63972A1F2137AD2400C3F16B /* DLTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,7 +380,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB469121CF83DE400B828ED /* DLTabBarControllerDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,7 +387,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAB4691D1CF83DE400B828ED /* DLTabBarControllerDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -624,6 +596,7 @@
 				AAB469231CF83DE400B828ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB469241CF83DE400B828ED /* Build configuration list for PBXNativeTarget "DLTabBarControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -632,6 +605,7 @@
 				AAB469261CF83DE400B828ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AAB469271CF83DE400B828ED /* Build configuration list for PBXNativeTarget "DLTabBarControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -640,6 +614,7 @@
 				AAB469291CF83DE400B828ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
